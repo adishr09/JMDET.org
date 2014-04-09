@@ -196,6 +196,19 @@ html[xmlns] #nav {
 	background-color:#fff;
 }
 
+
+#center_op
+{
+	z-index:-1;
+	width:75%;
+	float:left;
+	height:inherit;
+	display:inline-block;
+	border: 5px solid #bdbdbd;
+	background-color:#f0f0f0;
+
+}
+
 #footer{
 	z-index:1;
 	width:100%;
