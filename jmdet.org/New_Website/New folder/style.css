@@ -228,3 +228,13 @@ html[xmlns] #nav {
 	border: 5px solid #bdbdbd;
 	background-color:#fff;
 }
+
+#footern{
+	z-index:1;
+	width:79%;
+	position:relative;
+	height:30%;
+	margin-top:5%;
+    margin-left:10%;
+	background-color:#bdbdbd;
+}
