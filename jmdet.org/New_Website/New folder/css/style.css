@@ -8,17 +8,17 @@ a {
 }
 #nav {
 	margin: 0;
-	padding: 7px 1.5% 0;
-	background: #7d7d7d url(img/gradient.png) repeat-x 0 -110px;
+	padding: 7px 0 0;
+	background: #7d7d7d url(../img/gradient.png) repeat-x 0 -110px;
 	line-height: 100%;
 
 	z-index:1000;
-	width:81.5%;
+	width:100%;
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
 	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
 }
 #nav li {
-	margin: 0 5px;
+	margin: 0 1.5%;
 	padding: 0 0 8px;
 	float: left;
 	position: relative;
@@ -47,7 +47,7 @@ a {
 
 /* main level link hover */
 #nav .current a, #nav li:hover > a {
-	background: #666 url(img/gradient.png) repeat-x 0 -40px;
+	background: #666 url(../img/gradient.png) repeat-x 0 -40px;
 	color: #444;
 	border-top: solid 1px #f8f8f8;
 
@@ -68,7 +68,7 @@ a {
 	-moz-box-shadow: none;
 }
 #nav ul a:hover {
-	background: #0078ff url(img/gradient.png) repeat-x 0 -100px !important;
+	background: #0078ff url(../img/gradient.png) repeat-x 0 -100px !important;
 	color: #fff !important;
 
 	-webkit-border-radius: 0;
@@ -85,14 +85,14 @@ a {
 /* level 2 list */
 #nav ul {
 	display: none;
-
+	z-index:2;
 	margin: 0;
 	padding: 0;
 	width: 185px;
 	position: absolute;
 	top: 35px;
 	left: 0;
-	background: #ddd url(img/gradient.png) repeat-x 0 0;
+	background: #ddd url(../img/gradient.png) repeat-x 0 0;
 	border: solid 1px #b4b4b4;
 
 	-webkit-border-radius: 10px;
@@ -156,50 +156,56 @@ html[xmlns] #nav {
 	height: 1%;
 }
 
+#main{
+	width:90%;
+	position:relative;
+	height:300%;
+	margin:auto;
+	background:#0040FF;
+	border:10px solid #d3d3d3;
+}
+
 #wrapper{
 	z-index:1;
-	width:80%;
+	width:inherit;
 	position:relative;
-	height:1040px;
-	margin-top:5%;
+	height:initial;
+	margin:2% auto;
 }
 
 #left{
-	z-index:-1;
-	width:21%;
+	z-index:1;
+	width:24%;
 	float:left;
 	height:inherit;
 	margin-right:1%;
 	display:inline-block;
-	border: 5px solid #bdbdbd;
 	background-color:#fff;
 }
 
 #right{
-	z-index:-1;
-	width:21%;
+	z-index:1;
+	width:24%;
 	height:inherit;
 	float:left;
 	margin-left:1%;
 	display:inline-block;
-	border: 5px solid #bdbdbd;
 	background-color:#fff;
 }
 
 #center{
-	z-index:-1;
+	z-index:1;
 	width:50%;
 	float:left;
 	height:inherit;
 	display:inline-block;
-	border: 5px solid #bdbdbd;
 	background-color:#fff;
 }
 
 
 #center_op
 {
-	z-index:-1;
+	z-index:1;
 	width:75%;
 	float:left;
 	height:inherit;
@@ -211,7 +217,7 @@ html[xmlns] #nav {
 
 #footer{
 	z-index:1;
-	width:100%;
+	width:inherit;
 	position:relative;
 	height:30%;
 	margin-top:5%;
@@ -219,7 +225,7 @@ html[xmlns] #nav {
 }
 
 #f_1{
-	z-index:-1;
+	z-index:1;
 	width:15%;
 	float:left;
 	height:inherit;
