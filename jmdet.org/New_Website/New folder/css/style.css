@@ -205,6 +205,18 @@ html[xmlns] #nav {
 	border:5px solid #d3d3d3;
 }
 
+#center h{
+	width:85%;
+	text-align:justify;
+	margin:2% auto;
+}
+
+#center p{
+	width:80%;
+	text-align:justify;
+	margin:7% auto;
+}
+
 #footer{
 	z-index:1;
 	width:91%;
