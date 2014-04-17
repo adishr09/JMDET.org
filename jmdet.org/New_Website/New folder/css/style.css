@@ -170,7 +170,7 @@ html[xmlns] #nav {
 #main{
 	width:90%;
 	position:relative;
-	height:300%;
+	height:190%;
 	margin:auto;
 	font-family: 'arsenalregular';
 	background:#a4a4a4;
@@ -179,9 +179,10 @@ html[xmlns] #nav {
 
 #wrapper{
 	z-index:1;
-	width:inherit;
+	width:100%;
 	position:relative;
-	height:initial;
+	border:1px solid red;
+	height:85.5%;
 	margin:4% auto;
 }
 
@@ -264,9 +265,9 @@ html[xmlns] #nav {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    -webkit-box-shadow: 0px 9px 0px rgba(53,49,123,1), 0px 9px 25px rgba(0,0,0,.7);
-    -moz-box-shadow: 0px 9px 0px rgba(53,49,123,1), 0px 9px 25px rgba(0,0,0,.7);
-    box-shadow: 0px 9px 0px rgba(53,49,123,1), 0px 9px 25px rgba(0,0,0,.7);
+    -webkit-box-shadow: 0px 9px 0px rgba(53,88,108,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(53,88,108,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(53,88,108,1), 0px 9px 25px rgba(0,0,0,.7);
     margin: 12px auto;
 	width: 160px;
 	text-align: center;
@@ -279,9 +280,9 @@ html[xmlns] #nav {
 }
 
 #new:active {
-    -webkit-box-shadow: 0px 3px 0px rgba(53,49,123,1), 0px 3px 6px rgba(0,0,0,.9);
-    -moz-box-shadow: 0px 3px 0px rgba(53,49,123,1), 0px 3px 6px rgba(0,0,0,.9);
-    box-shadow: 0px 3px 0px rgba(53,49,123,1), 0px 3px 6px rgba(0,0,0,.9);
+    -webkit-box-shadow: 0px 3px 0px rgba(53,88,108,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(53,88,108,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(53,88,108,1), 0px 3px 6px rgba(0,0,0,.9);
     position: relative;
     top: 6px;
 }
