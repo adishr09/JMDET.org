@@ -25,8 +25,8 @@ a {
 	font-size:.8em;
 	z-index:1000;
 	width:100%;
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
-	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-webkit-box-shadow: 0 1px .5px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px .5px rgba(0,0,0, .4);
 }
 #nav li {
 	margin: 0 1.5%;
@@ -34,7 +34,8 @@ a {
 	float: left;
 	position: relative;
 	list-style: none;
-}
+	}
+
 
 
 /* main level link */
@@ -54,7 +55,8 @@ a {
 #nav a:hover {
 	background: #424242;
 	color: #fff;
-}
+-webkit-border-radius: 1.6em;
+	}
 
 /* main level link hover */
 #nav .current a, #nav li:hover > a {
