@@ -20,7 +20,7 @@ a {
 #nav {
 	margin: 0;
 	padding: 7px 0 0;
-	background: #7d7d7d url(../img/gradient.png) repeat-x 0 -110px;
+	background: #424242 url(../img/gradient.png) repeat-x 0 -110px;
 	line-height: 100%;
 	font-size:.8em;
 	z-index:1000;
@@ -31,7 +31,6 @@ a {
 #nav li {
 	margin: 0 1.5%;
 	padding: 0 0 8px;
-	border-right:solid 1px #ededed;
 	float: left;
 	position: relative;
 	list-style: none;
@@ -53,7 +52,7 @@ a {
 	text-shadow: 0 1px 1px rgba(0,0,0, .3);
 }
 #nav a:hover {
-	background: #000;
+	background: #424242;
 	color: #fff;
 }
 
@@ -80,7 +79,7 @@ a {
 	-moz-box-shadow: none;
 }
 #nav ul a:hover {
-	background: #0078ff url(../img/gradient.png) repeat-x 0 -100px !important;
+	background: #424242 url(../img/gradient.png) repeat-x 0 -100px !important;
 	color: #fff !important;
 
 	-webkit-border-radius: 0;
@@ -175,7 +174,7 @@ html[xmlns] #nav {
 	margin:auto;
 	font-family: 'arsenalregular';
 	background:#a4a4a4;
-	border:10px ridge #d3d3d3;
+	border:10px inset #d3d3d3;
 }
 
 #wrapper{
@@ -194,7 +193,7 @@ html[xmlns] #nav {
 	margin-right:1%;
 	display:inline-block;
 	background-color:#fff;
-	border:5px solid #d3d3d3;
+	border:5px solid #bdbdbd;
 }
 
 #right{
@@ -205,7 +204,7 @@ html[xmlns] #nav {
 	margin-left:1%;
 	display:inline-block;
 	background-color:#fff;
-	border:5px solid #d3d3d3;
+	border:5px solid #bdbdbd;
 }
 
 #center{
@@ -215,7 +214,7 @@ html[xmlns] #nav {
 	height:inherit;
 	display:inline-block;
 	background-color:#fff;
-	border:5px solid #d3d3d3;
+	border:5px solid #bdbdbd;
 }
 
 #center h{
