@@ -170,10 +170,10 @@ html[xmlns] #nav {
 #main{
 	width:90%;
 	position:relative;
-	height:300%;
+	height:291%;
 	margin:auto;
 	font-family: 'arsenalregular';
-	background:#325c74;
+	background:#3e728f;
 	border:5px solid #585858;
 }
 
@@ -182,7 +182,7 @@ html[xmlns] #nav {
 	width:100%;
 	position:relative;
 	height:91%;
-	margin:4% auto;
+	margin:3% auto;
 }
 
 #left{
@@ -190,10 +190,10 @@ html[xmlns] #nav {
 	width:24%;
 	float:left;
 	height:inherit;
-	margin-right:1%;
+    margin-right:1.5%;
 	display:inline-block;
 	background-color:#fff;
-	border:5px solid #606060;
+	border:3px solid #585858;
 }
 
 #right{
@@ -201,10 +201,10 @@ html[xmlns] #nav {
 	width:24%;
 	height:inherit;
 	float:left;
-	margin-left:1%;
+	margin-left:1.5%;
 	display:inline-block;
 	background-color:#fff;
-	border:5px solid #606060;
+	border:3px solid #585858;
 }
 
 #center{
@@ -214,7 +214,7 @@ html[xmlns] #nav {
 	height:inherit;
 	display:inline-block;
 	background-color:#fff;
-	border:5px solid #606060;
+	border:3px solid #585858;
 }
 
 #center h{
@@ -237,7 +237,8 @@ html[xmlns] #nav {
 	position:relative;
 	height:30%;
 	margin-top:5%;
-	background-color:#a4a4a4;
+	
+	background-color:#707070;
 }
 
 #f_1{
