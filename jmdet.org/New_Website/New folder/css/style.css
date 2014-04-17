@@ -170,7 +170,7 @@ html[xmlns] #nav {
 #main{
 	width:90%;
 	position:relative;
-	height:190%;
+	height:300%;
 	margin:auto;
 	font-family: 'arsenalregular';
 	background:#325c74;
@@ -181,7 +181,7 @@ html[xmlns] #nav {
 	z-index:1;
 	width:100%;
 	position:relative;
-	height:85.5%;
+	height:91%;
 	margin:4% auto;
 }
 
