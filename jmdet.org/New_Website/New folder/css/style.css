@@ -207,7 +207,9 @@ html[xmlns] #nav {
 
 #footer{
 	z-index:1;
-	width:inherit;
+	width:91%;
+	margin-right:auto;
+	margin-left:auto;
 	position:relative;
 	height:30%;
 	margin-top:5%;
