@@ -20,7 +20,7 @@ a {
 #nav {
 	margin: 0;
 	padding: 7px 0 0;
-	background: #424242 url(../img/gradient.png) repeat-x 0 -110px;
+	background: #303030 url(../img/gradient.png) repeat-x 0 -110px;
 	line-height: 100%;
 	font-size:.8em;
 	z-index:1000;
@@ -173,8 +173,8 @@ html[xmlns] #nav {
 	height:190%;
 	margin:auto;
 	font-family: 'arsenalregular';
-	background:#a4a4a4;
-	border:5px solid #707070;
+	background:#325c74;
+	border:5px solid #585858;
 }
 
 #wrapper{
@@ -193,7 +193,7 @@ html[xmlns] #nav {
 	margin-right:1%;
 	display:inline-block;
 	background-color:#fff;
-	border:5px solid #bdbdbd;
+	border:5px solid #606060;
 }
 
 #right{
@@ -204,7 +204,7 @@ html[xmlns] #nav {
 	margin-left:1%;
 	display:inline-block;
 	background-color:#fff;
-	border:5px solid #bdbdbd;
+	border:5px solid #606060;
 }
 
 #center{
@@ -214,7 +214,7 @@ html[xmlns] #nav {
 	height:inherit;
 	display:inline-block;
 	background-color:#fff;
-	border:5px solid #bdbdbd;
+	border:5px solid #606060;
 }
 
 #center h{
