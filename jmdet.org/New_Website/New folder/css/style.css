@@ -1,5 +1,16 @@
+@font-face {
+    font-family: 'arsenalregular';
+    src: url('../fonts/arsenal-regular-webfont.eot');
+    src: url('../fonts/arsenal-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arsenal-regular-webfont.woff') format('woff'),
+         url('../fonts/arsenal-regular-webfont.ttf') format('truetype'),
+         url('../fonts/arsenal-regular-webfont.svg#arsenalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
-	font: normal .8em/1.5em Arial, Helvetica, sans-serif;
 	background: #424242;
 }
 
@@ -11,7 +22,7 @@ a {
 	padding: 7px 0 0;
 	background: #7d7d7d url(../img/gradient.png) repeat-x 0 -110px;
 	line-height: 100%;
-
+	font-size:.8em;
 	z-index:1000;
 	width:100%;
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
@@ -161,6 +172,7 @@ html[xmlns] #nav {
 	position:relative;
 	height:300%;
 	margin:auto;
+	font-family: 'arsenalregular';
 	background:#a4a4a4;
 	border:10px ridge #d3d3d3;
 }
