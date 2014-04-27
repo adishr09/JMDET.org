@@ -17,6 +17,11 @@ body {
 a {
 	color: #333;
 }
+
+li
+{
+    list-style-type: none;
+}
 #nav {
 	margin: 0;
 	padding: 7px 0 0;
@@ -239,8 +244,9 @@ html[xmlns] #nav {
 	position:relative;
 	height:30%;
 	margin-top:5%;
-	
-	background-color:#707070;
+		background:#3e728f;
+	border:5px solid #585858;
+    
 }
 
 #f_1{
@@ -248,11 +254,13 @@ html[xmlns] #nav {
 	width:15%;
 	float:left;
 	height:inherit;
-	margin:30px 8% 0 8%;
+	margin:4%;
 	display:inline-block;
-	border: 5px solid #bdbdbd;
-	background-color:#fff;
+
 }
+#f_1:hover {
+    color: #003366;
+  }
 
 #new {
 	position: relative;
