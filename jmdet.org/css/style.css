@@ -17,6 +17,7 @@ hr { display: block; height: 3px;
 body {
 	background-image: url(../img/tile.png);
 	min-width: 1280px;
+	margin-top: 0;
 }
 
 html {
@@ -211,7 +212,7 @@ html[xmlns] #nav {
     margin-right:1.25%;
 	margin-left:.5%;
 	display:inline-block;
-	background-color:#cecece;
+	background-image: url(../img/tile.png);
 	border:3px solid #58768e;
 }
 
@@ -225,7 +226,7 @@ html[xmlns] #nav {
 	margin-left:1.5%;
 	margin-right:.5%;
 	display:inline-block;
-	background-color:#cecece;
+	background-image: url(../img/tile.png);
 	border:3px solid #58768e;
 }
 
@@ -237,7 +238,7 @@ html[xmlns] #nav {
 	overflow-y:auto;
 	height:80.7%;
 	display:inline-block;
-	background-color:#f5f5f5;
+	background-color:#eaf0f5;
 	border:3px solid #58768e;
 }
 
@@ -256,10 +257,11 @@ html[xmlns] #nav {
 #footer{
 	z-index:1;
 	width:100%;
-	position:relative;
+	position:absolute;
 	height:120px;
 	background:#3e728f;
-	border:7px solid #585858;
+	<--? border:7px solid #585858; ?-->
+	
 
     
 }
