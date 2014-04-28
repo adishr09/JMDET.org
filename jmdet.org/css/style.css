@@ -181,15 +181,11 @@ html[xmlns] #nav {
 #main{
 	width:90%;
 	position:relative;
-<<<<<<< HEAD
 	height:inherit;
-=======
-	height:160%;
->>>>>>> f09413c7d99ad229ea067e03bfaafa3cb4231a0c
 	margin:auto;
 	font-family: 'arsenalregular';
 	background-image: url(../img/tile2.png);
-	border:5px solid #58545c;
+	border:7px ridge #58768e;
 }
 
 #wrapper{
@@ -204,16 +200,9 @@ html[xmlns] #nav {
 	z-index:1;
 	width:24%;
 	float:left;
-	overflow-y:auto;
-<<<<<<< HEAD
+	overflow-y:auto; 
 	text-align: center;
-=======
-<<<<<<< HEAD
-	height:88%;
-=======
->>>>>>> f09413c7d99ad229ea067e03bfaafa3cb4231a0c
 	height:80%;
->>>>>>> e15b7aed03d1effc16590e33fe57cfe0de627bfa
     margin-right:1.25%;
 	margin-left:.5%;
 	display:inline-block;
@@ -224,15 +213,8 @@ html[xmlns] #nav {
 #right{
 	z-index:1;
 	width:24%;
-<<<<<<< HEAD
-	height:88%;
-=======
 	height:80%;
-<<<<<<< HEAD
 	text-align: center;
-=======
->>>>>>> e15b7aed03d1effc16590e33fe57cfe0de627bfa
->>>>>>> f09413c7d99ad229ea067e03bfaafa3cb4231a0c
 	float:right;
 	overflow-y:auto;
 	margin-left:1.5%;
@@ -248,11 +230,7 @@ html[xmlns] #nav {
 	text-align: center;
 	float:center;
 	overflow-y:auto;
-<<<<<<< HEAD
-	height:88%!important;
-=======
 	height:80%;
->>>>>>> e15b7aed03d1effc16590e33fe57cfe0de627bfa
 	display:inline-block;
 	background-color:#f5f5f5;
 	border:3px solid #58768e;
