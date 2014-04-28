@@ -243,13 +243,12 @@ html[xmlns] #nav {
 
 #footer{
 	z-index:1;
-	width:91%;
+	width:99%;
 	margin-right:auto;
 	margin-left:auto;
-	position:relative;
-	height:30%;
-	margin-top:5%;
-		background:#3e728f;
+	position:absolute;
+	height:100px;
+	background:#3e728f;
 	border:5px solid #585858;
     
 }
