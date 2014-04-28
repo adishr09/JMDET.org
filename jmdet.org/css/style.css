@@ -202,7 +202,7 @@ html[xmlns] #nav {
 	margin-left:.5%;
 	display:inline-block;
 	background-color:#cecece;
-	border:3px solid #585858;
+	border:3px solid #58768e;
 }
 
 #right{
@@ -215,7 +215,7 @@ html[xmlns] #nav {
 	margin-right:.5%;
 	display:inline-block;
 	background-color:#cecece;
-	border:3px solid #585858;
+	border:3px solid #58768e;
 }
 
 #center{
@@ -226,7 +226,7 @@ html[xmlns] #nav {
 	height:80%;
 	display:inline-block;
 	background-color:#f5f5f5;
-	border:3px solid #585858;
+	border:3px solid #58768e;
 }
 
 #center h{
