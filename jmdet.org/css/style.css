@@ -234,9 +234,9 @@ html[xmlns] #nav {
 	z-index:1;
 	width:45%;
 	text-align: center;
-	float:center;
 	overflow-y:auto;
 	height:80.7%;
+	margin-left:0.95%;
 	display:inline-block;
 	background-color:#eaf0f5;
 	border:3px solid #58768e;
