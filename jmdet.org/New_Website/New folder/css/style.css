@@ -12,6 +12,7 @@
 
 body {
 	background: #424242;
+	min-width: 1280px;
 }
 
 a {
@@ -189,14 +190,15 @@ html[xmlns] #nav {
 	z-index:1;
 	width:100%;
 	position:relative;
-	height:91%;
+	height:63%;
 	margin:3% auto;
 }
 
 #left{
 	z-index:1;
-	width:300px;
+	width:24%;
 	float:left;
+	overflow-y:auto;
 	height:inherit;
     margin-right:1.5%;
 	display:inline-block;
@@ -206,9 +208,10 @@ html[xmlns] #nav {
 
 #right{
 	z-index:1;
-	width:300px;
+	width:24%;
 	height:inherit;
 	float:right;
+	overflow-y:auto;
 	margin-left:1.5%;
 	display:inline-block;
 	background-color:#fff;
@@ -217,8 +220,9 @@ html[xmlns] #nav {
 
 #center{
 	z-index:1;
-	width:470px;
+	width:45%;
 	float:center;
+	overflow-y:auto;
 	height:inherit;
 	display:inline-block;
 	background-color:#fff;
