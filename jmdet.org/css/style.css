@@ -202,7 +202,7 @@ html[xmlns] #nav {
 	float:left;
 	overflow-y:auto; 
 	text-align: center;
-	height:80%;
+	height:80.7%;
     margin-right:1.25%;
 	margin-left:.5%;
 	display:inline-block;
@@ -213,7 +213,7 @@ html[xmlns] #nav {
 #right{
 	z-index:1;
 	width:24%;
-	height:80%;
+	height:80.7%;
 	text-align: center;
 	float:right;
 	overflow-y:auto;
@@ -230,7 +230,7 @@ html[xmlns] #nav {
 	text-align: center;
 	float:center;
 	overflow-y:auto;
-	height:80%;
+	height:80.7%;
 	display:inline-block;
 	background-color:#f5f5f5;
 	border:3px solid #58768e;
