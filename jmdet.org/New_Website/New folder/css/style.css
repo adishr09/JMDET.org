@@ -177,7 +177,7 @@ html[xmlns] #nav {
 #main{
 	width:90%;
 	position:relative;
-	height:200%;
+	height:190%;
 	margin:auto;
 	font-family: 'arsenalregular';
 	background:-webkit-gradient(linear, left top, right top, color-stop(0%,rgba(201, 201, 200, 1)), color-stop(50%,rgba(71, 92, 109, 1)), color-stop(100%,rgba(201, 201, 201, 1)));
@@ -188,7 +188,7 @@ html[xmlns] #nav {
 	z-index:1;
 	width:100%;
 	position:relative;
-	height:73%;
+	height:80%;
 	margin:3% auto;
 }
 
@@ -243,9 +243,9 @@ html[xmlns] #nav {
 
 #footer{
 	z-index:1;
-	width:95%;
-	margin-right:auto;
-	margin-left:auto;
+	width:96%;
+	margin-right:2%;
+	margin-left:2%;
 	position:absolute;
 	height:100px;
 	background:#3e728f;
