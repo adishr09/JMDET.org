@@ -255,13 +255,11 @@ html[xmlns] #nav {
 
 #footer{
 	z-index:1;
-	width:98.5%;
-	margin-right:1%;
-	position:absolute;
+	width:100%;
+	position:relative;
 	height:120px;
 	background:#3e728f;
-    margin: 0.5%;
-	border:3px solid #585858;
+	border:7px solid #585858;
 
     
 }
