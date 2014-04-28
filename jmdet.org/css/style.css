@@ -259,7 +259,7 @@ html[xmlns] #nav {
 	z-index:1;
 	width:100%;
 	position:RELATIVE;
-	margin: 0 auto 0 auto;
+	margin: 1% auto 0 auto;
 	height:150px;
 	background-image: url(../img/foot.png);
 	border-top:7px outset #3F5769;
