@@ -59,13 +59,13 @@ li
 }
 #nav a:hover {
 	background: #424242;
-	color: #fff;
--webkit-border-radius: 1.6em;
+	color: #FFF;
+
 	}
 
 /* main level link hover */
 #nav .current a, #nav li:hover > a {
-	background: #666 url(../img/gradient.png) repeat-x 0 -40px;
+	background: #8f8f8f url(../img/gradient.png) repeat-x 0 -40px;
 	color: #444;
 	border-top: solid 1px #f8f8f8;
 
@@ -78,9 +78,9 @@ li
 
 /* sub levels link hover */
 #nav ul li:hover a, #nav li:hover li a {
-	background: none;
+	background:919191;
 	border: none;
-	color: #666;
+	color: #444;
 
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
