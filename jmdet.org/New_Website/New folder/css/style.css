@@ -32,8 +32,6 @@ li
 	font-size:.8em;
 	z-index:1000;
 	width:100%;
-	-webkit-box-shadow: 0 1px .5px rgba(0,0,0, .4);
-	-moz-box-shadow: 0 1px .5px rgba(0,0,0, .4);
 }
 #nav li {
 	margin: 0 1.5%;
