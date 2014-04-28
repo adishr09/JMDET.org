@@ -264,7 +264,7 @@ html[xmlns] #nav {
 	display:inline-block;
 
 }
-#f_1:hover {
+a:hover {
     color: #003366;
   }
 
