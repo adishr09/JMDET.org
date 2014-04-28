@@ -10,6 +10,10 @@
 
 }
 
+hr { display: block; height: 3px;
+    border: 0; border-top: 1px solid #58768e;
+    padding: 0; }
+	
 body {
 	background-image: url(../img/tile.png);
 	min-width: 1280px;
@@ -17,6 +21,7 @@ body {
 
 html {
 	height: 120%;
+	overflow-x: hidden;
 }
 
 a {
