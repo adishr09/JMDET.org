@@ -2,11 +2,10 @@
     require_once('PHPMailer_v5.1/class.phpmailer.php'); //library added in download source.
     $msg  = 'Hello World';
     $subj = 'test mail message';
-    $to   = 'youremail@website.com';
-    $from = 'you@youremail.com';
+    $to   = 'priyanshsingh@outlook.com';
+    $from = 'priyansh.singh.delhi@gmail.com';
     $name = 'My Name';
 
-    echo smtpmailer($to,$from, $name ,$subj, $msg);
     
     function smtpmailer($to, $from, $from_name = 'Example.com', $subject, $body, $is_gmail = true)
     {
@@ -19,13 +18,13 @@
         $mail->SMTPSecure = 'ssl'; 
         $mail->Host = 'smtp.gmail.com';
         $mail->Port = 465;  
-        $mail->Username = 'admin@example.com';  
-        $mail->Password = '*******';   
+        $mail->Username = 'priyansh.singh.delhi@gmail.com';  
+        $mail->Password = '9971486416';   
         
         
         $mail->IsHTML(true);
-        $mail->From="admin@example.com";
-        $mail->FromName="Example.com";
+        $mail->From="priyansh.singh.delhi@gmail.com";
+        $mail->FromName="priyansh.singh.delhi@gmail.com";
         $mail->Sender=$from; // indicates ReturnPath header
         $mail->AddReplyTo($from, $from_name); // indicates ReplyTo headers
 //        $mail->AddCC('cc@phpgang.com.com', 'CC: to phpgang.com');
@@ -44,4 +43,7 @@
             return $error;
         }
     }
+    smtpmailer($to, $from,$name, $subj,$msg,true);
+    
+    
 ?>
