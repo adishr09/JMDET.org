@@ -38,7 +38,7 @@ li
 #nav {
 	margin: 0;
 	padding: 7px 0 0;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(47, 86, 116, 1)), color-stop(98%,rgba(53, 53, 53, 1)));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(47, 86, 116, 1)), color-stop(98%,rgba(0, 0, 0, 1)));
 	line-height: 100%;
 	font-size:.8em;
 	z-index:1000;
