@@ -22,6 +22,7 @@ li
 {
     list-style-type: none;
 }
+
 #nav {
 	margin: 0;
 	padding: 7px 0 0;
@@ -194,7 +195,7 @@ html[xmlns] #nav {
 
 #left{
 	z-index:1;
-	width:24%;
+	width:300px;
 	float:left;
 	height:inherit;
     margin-right:1.5%;
@@ -205,9 +206,9 @@ html[xmlns] #nav {
 
 #right{
 	z-index:1;
-	width:24%;
+	width:300px;
 	height:inherit;
-	float:left;
+	float:right;
 	margin-left:1.5%;
 	display:inline-block;
 	background-color:#fff;
@@ -216,8 +217,8 @@ html[xmlns] #nav {
 
 #center{
 	z-index:1;
-	width:47.5%;
-	float:left;
+	width:470px;
+	float:center;
 	height:inherit;
 	display:inline-block;
 	background-color:#fff;
