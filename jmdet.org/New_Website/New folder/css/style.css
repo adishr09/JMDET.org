@@ -26,7 +26,7 @@ li
 #nav {
 	margin: 0;
 	padding: 7px 0 0;
-	background: #303030 url(../img/gradient.png) repeat-x 0 -110px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(37, 71, 97, 1)), color-stop(98%,rgba(88,118,142,1)));
 	line-height: 100%;
 	font-size:.8em;
 	z-index:1000;
@@ -181,7 +181,7 @@ html[xmlns] #nav {
 	height:291%;
 	margin:auto;
 	font-family: 'arsenalregular';
-	background:#3e728f;
+	background:-webkit-gradient(linear, left top, right top, color-stop(0%,rgba(201, 201, 200, 1)), color-stop(50%,rgba(71, 92, 109, 1)), color-stop(100%,rgba(201, 201, 201, 1)));
 	border:5px solid #585858;
 }
 
