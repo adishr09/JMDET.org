@@ -10,6 +10,7 @@
 
 }
 
+
 hr { display: block; height: 3px;
     border: 0; border-top: 1px solid #58768e;
     padding: 0; }
@@ -17,7 +18,7 @@ hr { display: block; height: 3px;
 body {
 	background-image: url(../img/tile.png);
 	min-width: 1280px;
-	margin-top: 0;
+	margin: 0;
 }
 
 html {
@@ -26,7 +27,7 @@ html {
 }
 
 a {
-	color: #333;
+	color: #DDD;
 }
 
 li
@@ -37,7 +38,7 @@ li
 #nav {
 	margin: 0;
 	padding: 7px 0 0;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(37, 71, 97, 1)), color-stop(98%,rgba(53, 53, 53, 1)));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(47, 86, 116, 1)), color-stop(98%,rgba(53, 53, 53, 1)));
 	line-height: 100%;
 	font-size:.8em;
 	z-index:1000;
@@ -56,7 +57,7 @@ li
 /* main level link */
 #nav a {
 	font-weight: bold;
-	color: #e7e5e5;
+	color: rgb(218, 218, 218);
 	text-decoration: none;
 	display: block;
 	padding:  8px 20px;
@@ -68,14 +69,14 @@ li
 	text-shadow: 0 1px 1px rgba(0,0,0, .3);
 }
 #nav a:hover {
-	background: #424242;
+	background: #58768e;
 	color: #FFF;
 
 	}
 
 /* main level link hover */
 #nav .current a, #nav li:hover > a {
-	background: #8f8f8f url(../img/gradient.png) repeat-x 0 -40px;
+	background: #e6e6e6;
 	color: #444;
 	border-top: solid 1px #f8f8f8;
 
@@ -199,7 +200,7 @@ html[xmlns] #nav {
 	width:100%;
 	position:relative;
 	height:inherit;
-	margin:1% auto;
+	margin:1% auto 0 auto;
 }
 
 #left{
@@ -257,10 +258,11 @@ html[xmlns] #nav {
 #footer{
 	z-index:1;
 	width:100%;
-	position:absolute;
-	height:120px;
-	background:#3e728f;
-	<--? border:7px solid #585858; ?-->
+	position:RELATIVE;
+	margin: 0 auto 0 auto;
+	height:150px;
+	background-image: url(../img/foot.png);
+	border-top:7px outset #3F5769;
 	
 
     
@@ -268,9 +270,9 @@ html[xmlns] #nav {
 
 #f_1{
 	z-index:1;
-	width:15%;
-	float:left;
-	height:inherit;
+	width:13%;
+	text-align: center;
+	float:right;
 	margin:4%;
 	display:inline-block;
 
