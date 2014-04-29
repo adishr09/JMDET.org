@@ -275,6 +275,8 @@ html[xmlns] #nav {
 	margin: 1% auto 0 auto;
 	height:150px;
 	background-image: url(../img/foot.png);
+	background-repeat: no-repeat;
+	background-position: left;
 	border-top:7px outset #3F5769;
 }
 
