@@ -224,7 +224,7 @@ html[xmlns] #nav {
 	text-align: center;
 	float:right;
 	overflow-y:auto;
-	margin-left:1.5%;
+	margin-left:1.25%;
 	margin-right:.5%;
 	display:inline-block;
 	background-image: url(../img/tile.png);
@@ -243,13 +243,26 @@ html[xmlns] #nav {
 	border:3px solid #58768e;
 }
 
-#center h{
+#center_1{
+	z-index:1;
+	width:71.5%;
+	text-align: center;
+	overflow-y:auto;
+	height:80.7%;
+	margin-left:1.25%;
+	margin-right:0.5%;
+	display:inline-block;
+	background-color:#eaf0f5;
+	border:3px solid #58768e;
+}
+
+#center h,#center_1 h{
 	width:85%;
 	text-align:justify;
 	margin:2% auto;
 }
 
-#center p{
+#center p,#center_1 p{
 	width:90%;
 	text-align:justify;
 	margin:7% auto;
@@ -263,9 +276,6 @@ html[xmlns] #nav {
 	height:150px;
 	background-image: url(../img/foot.png);
 	border-top:7px outset #3F5769;
-	
-
-    
 }
 
 #f_1{
