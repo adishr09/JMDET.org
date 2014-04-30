@@ -10,7 +10,6 @@
 
 }
 
-
 hr { display: block; height: 3px;
     border: 0; border-top: 1px solid #58768e;
     padding: 0; }
@@ -51,8 +50,6 @@ li
 	position: relative;
 	list-style: none;
 	}
-
-
 
 /* main level link */
 #nav a {
@@ -285,10 +282,15 @@ html[xmlns] #nav {
 	width:13%;
 	text-align: center;
 	float:right;
-	margin:4%;
+	margin:0;
 	display:inline-block;
 
 }
+
+#f_1 ul l a{
+	padding-top:15px;
+}
+
 a:hover {
     color: #003366;
   }
