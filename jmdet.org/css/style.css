@@ -239,7 +239,7 @@ html[xmlns] #nav {
 	height:80.7%;
 	margin-left:0.95%;
 	display:inline-block;
-	background-color:#eaf0f5;
+	background-color:rgba(206, 218, 228, 0.84);
 	border:3px solid #58768e;
 }
 
@@ -264,7 +264,7 @@ html[xmlns] #nav {
 
 #center p,#center_1 p{
 	width:90%;
-	text-align:justify;
+	text-align:center;
 	margin:7% auto;
 }
 
