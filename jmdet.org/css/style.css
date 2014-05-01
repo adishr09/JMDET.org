@@ -17,7 +17,7 @@ hr { display: block; height: 3px;
 	
 body {
 	background-image: url(../img/tile.png);
-	min-width: 1280px;
+	min-width: 1100px;
 	margin: 0;
 }
 
@@ -248,6 +248,7 @@ html[xmlns] #nav {
 	width:71.5%;
 	overflow-y:auto;
 	height:80.7%;
+	min-width:600px;
 	margin-left:1.25%;
 	margin-right:0.5%;
 	display:inline-block;
