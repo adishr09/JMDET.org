@@ -275,22 +275,25 @@ html[xmlns] #nav {
 	z-index:1;
 	width:100%;
 	position:RELATIVE;
+	text-decoration:none;
 	margin: 1% auto 0 auto;
 	height:150px;
 	background-image: url(../img/foot.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	border-top:7px outset #3F5769;
-}
+    color: #0b2b4f;
+	font-size:1em;
+	}
 
 #f_1{
 	z-index:1;
 	width:13%;
-	text-align: center;
+	text-align: left;
 	float:right;
 	margin:0;
 	display:inline-block;
-
+ 
 }
 
 #f_1 ul l a{
@@ -339,3 +342,7 @@ a:hover {
 #frm input{
 	border-radius:5px;
 }
+
+#links
+{ text-decoration:none;
+   } 
