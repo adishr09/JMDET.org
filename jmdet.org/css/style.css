@@ -280,7 +280,7 @@ html[xmlns] #nav {
 	position:RELATIVE;
 	text-decoration:none;
 	margin: 1% auto 0 auto;
-	height:150px;
+	height:170px;
 	background-image: url(../img/foot.png);
 	background-repeat: no-repeat;
 	background-position: left;
@@ -291,7 +291,8 @@ html[xmlns] #nav {
 
 #f_1{
 	z-index:1;
-	width:13%;
+	width:13.29%;
+	margin-right: 9;
 	text-align: left;
 	float:right;
 	display:inline-block;
