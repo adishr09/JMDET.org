@@ -73,11 +73,21 @@
 				<p><img src="img/call_for_papers.png" width="60%"></p>
 			</div>
 			<div id="center_1">
-            <form>
-			First Name*:<input type="text" name="firstname"><br>
-			Last Name*:<input type="text" name="lastname"><br>
-			Attach Doc*:<input type="text" name="attach" disabled><input type="submit" value="Attach"><br>
-			<input type="submit" value="Submit">
+			<p><b> Submit your papers</b></p>
+            <p>
+			<table>
+			<form id="frm">
+			<tr><td>First Name*:</td><td><input type="text" name="firstname" required></td></tr>
+			<tr><td>Last Name*:</td><td><input type="text" name="lastname" required></td></tr>
+			<tr><td>Email*:</td><td><input type="email" name="email" required></td></tr>
+			<tr><td>Contact Number*:</td><td><input type="number" name="contact" min="1000000000" required></td></tr>
+			<tr><td>Country Name*:</td><td><input type="text" name="country" required></td></tr>
+			<tr><td>Subject & Category*:</td><td><input type="text" name="sub&cat" required></td></tr>
+			<tr><td>Abstract*:</td><td><input type="text" name="abstract" required></td></tr>
+			<tr><td>Attach Doc*:</td><td><input type="file" name="attach"></td></tr>
+			<tr><td><input type="submit" value="Submit"></td></tr>
+			</table>
+			</p>
 			</div>
 				
 		<div id="footer">
