@@ -10,13 +10,14 @@
 
 }
 
+
 hr { display: block; height: 3px;
     border: 0; border-top: 1px solid #58768e;
     padding: 0; }
 	
 body {
 	background-image: url(../img/tile.png);
-	min-width: 1280px;
+	min-width: 1100px;
 	margin: 0;
 }
 
@@ -50,6 +51,8 @@ li
 	position: relative;
 	list-style: none;
 	}
+
+
 
 /* main level link */
 #nav a {
@@ -243,20 +246,20 @@ html[xmlns] #nav {
 #center_1{
 	z-index:1;
 	width:71.5%;
-	text-align: center;
 	overflow-y:auto;
 	height:80.7%;
+	min-width:600px;
 	margin-left:1.25%;
 	margin-right:0.5%;
 	display:inline-block;
 	background-color:#eaf0f5;
 	border:3px solid #58768e;
-}
+	}
 
 #center h,#center_1 h{
 	width:85%;
 	text-align:justify;
-	margin:2% auto;
+	margin:7% auto;
 }
 
 #center p{
@@ -265,9 +268,9 @@ html[xmlns] #nav {
 	margin:7% auto;
 }
 
-#center_1 p, #center_1 form{
+#center_1 p{
 	width:90%;
-	text-align:left;
+	text-align:justify;
 	margin:7% auto;
 }
 
@@ -291,15 +294,10 @@ html[xmlns] #nav {
 	width:13%;
 	text-align: left;
 	float:right;
-	margin:0;
+	margin:4%;
 	display:inline-block;
  
 }
-
-#f_1 ul l a{
-	padding-top:15px;
-}
-
 a:hover {
     color: #003366;
   }
@@ -337,6 +335,7 @@ a:hover {
     box-shadow: 0px 3px 0px rgba(53,88,108,1), 0px 3px 6px rgba(0,0,0,.9);
     position: relative;
     top: 6px;
+<<<<<<< HEAD
 }
 
 #frm input{
@@ -346,3 +345,6 @@ a:hover {
 #links
 { text-decoration:none;
    } 
+=======
+}
+>>>>>>> 988c3a5965b542908fbac1530ff88a5de8ce0673
