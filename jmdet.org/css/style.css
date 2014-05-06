@@ -17,7 +17,7 @@ hr { display: block; height: 3px;
 	
 body {
 	background-image: url(../img/tile.png);
-	min-width: 1100px;
+	min-width: 1400px;
 	margin: 0;
 }
 
@@ -247,14 +247,14 @@ html[xmlns] #nav {
 	z-index:1;
 	width:71.5%;
 	overflow-y:auto;
+	text-align:justify;
 	height:80.7%;
-	min-width:600px;
 	margin-left:1.25%;
 	margin-right:0.5%;
 	display:inline-block;
 	background-color:#eaf0f5;
 	border:3px solid #58768e;
-	}
+}
 
 #center h,#center_1 h{
 	width:85%;
