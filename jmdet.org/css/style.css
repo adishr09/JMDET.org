@@ -17,17 +17,19 @@ hr { display: block; height: 3px;
 	
 body {
 	background-image: url(../img/tile.png);
-	min-width: 1400px;
-	margin: 0;
+	min-width: 100%;
+	margin: 0 auto;
 }
+
+
+#mar a:link {color:#666;}      /* unvisited link */
+#mar a:visited {color:#666;}  /* visited link */
+#mar a:hover {color:#4a4a4a;}  /* mouse over link */
+#mar a:active {color:#4a4a4a;}  /* selected link */
 
 html {
 	height: 120%;
 	overflow-x: hidden;
-}
-
-a {
-	color: #DDD;
 }
 
 li
@@ -187,6 +189,7 @@ html[xmlns] #nav {
 
 #main{
 	width:90%;
+	min-width:80%;
 	position:relative;
 	height:inherit;
 	margin:auto;
@@ -245,7 +248,7 @@ html[xmlns] #nav {
 
 #center_1{
 	z-index:1;
-	width:71.5%;
+	width:69.5%;
 	overflow-y:auto;
 	text-align:justify;
 	height:80.7%;
@@ -342,5 +345,7 @@ a:hover {
 }
 
 #links
-{ text-decoration:none;
+{ 
+	color:#292929;
+	text-decoration:none;
    } 
