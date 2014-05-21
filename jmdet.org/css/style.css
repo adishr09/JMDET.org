@@ -15,22 +15,23 @@ hr { display: block; height: 3px;
     border: 0; border-top: 1px solid #58768e;
     padding: 0; }
 	
+
 body {
 	background-image: url(../img/tile.png);
-	min-width: 100%;
 	margin: 0 auto;
 }
 
+html{
+	width:100%;
+	min-width:1000px;
+	height: 150%;
+	overflow-x: auto;
+}
 
 #mar a:link {color:#666;}      /* unvisited link */
 #mar a:visited {color:#666;}  /* visited link */
 #mar a:hover {color:#4a4a4a;}  /* mouse over link */
 #mar a:active {color:#4a4a4a;}  /* selected link */
-
-html {
-	height: 120%;
-	overflow-x: hidden;
-}
 
 li
 {
@@ -189,21 +190,12 @@ html[xmlns] #nav {
 
 #main{
 	width:90%;
-	min-width:80%;
+	max-width:5000px;
 	position:relative;
-	height:inherit;
 	margin:auto;
 	font-family: 'arsenalregular';
 	background-image: url(../img/tile2.png);
 	border:7px ridge #58768e;
-}
-
-#wrapper{
-	z-index:1;
-	width:100%;
-	position:relative;
-	height:inherit;
-	margin:1% auto 0 auto;
 }
 
 #left{
@@ -215,7 +207,8 @@ html[xmlns] #nav {
 	height:80.7%;
     margin-right:1.25%;
 	margin-left:.5%;
-	display:inline-block;
+	margin-top:1%;
+	display:inline;
 	background-image: url(../img/tile.png);
 	border:3px solid #58768e;
 }
@@ -223,13 +216,14 @@ html[xmlns] #nav {
 #right{
 	z-index:1;
 	width:24%;
-	height:80.7%;
+	height:80.7%;	
 	text-align: center;
 	float:right;
 	overflow-y:auto;
 	margin-left:1.25%;
+	margin-top:1%;
 	margin-right:.5%;
-	display:inline-block;
+	display:inline;
 	background-image: url(../img/tile.png);
 	border:3px solid #58768e;
 }
@@ -241,6 +235,7 @@ html[xmlns] #nav {
 	overflow-y:auto;
 	height:80.7%;
 	margin-left:0.95%;
+	margin-top:1%;
 	display:inline-block;
 	background-color:rgba(206, 218, 228, 0.84);
 	border:3px solid #58768e;
@@ -254,6 +249,7 @@ html[xmlns] #nav {
 	height:80.7%;
 	margin-left:1.25%;
 	margin-right:0.5%;
+	margin-top:1%;
 	display:inline-block;
 	background-color:#eaf0f5;
 	border:3px solid #58768e;
@@ -277,33 +273,45 @@ html[xmlns] #nav {
 	margin:4% 2%;
 }
 
-#footer{
+footer{
 	z-index:1;
 	width:100%;
 	position:RELATIVE;
 	text-decoration:none;
 	margin: 1% auto 0 auto;
-	height:170px;
+	min-height:220px;
 	background-image: url(../img/foot.png);
 	background-repeat: no-repeat;
+	background-size:cover;
 	background-position: left;
 	border-top:7px outset #3F5769;
-    color: #0b2b4f;
 	font-size:1em;
-	}
+    color: #0b2b4f;
+}
 
 #f_1{
 	z-index:1;
 	width:13.29%;
-	margin-right: 9;
+	margin-right: 1%;
 	text-align: left;
 	float:right;
+	position:relative;
 	display:inline-block;
- 
 }
+
 a:hover {
     color: #003366;
-  }
+ }
+
+ 
+#f_1_dwn{
+	float:right;
+	width:inherit;
+	text-align:right;
+	position:relative;
+	margin-right:2%;
+	display:inline-block;
+}
 
 #new {
 	position: relative;
