@@ -192,7 +192,8 @@ html[xmlns] #nav {
 	width:90%;
 	max-width:5000px;
 	position:relative;
-	margin:auto;
+	float:left;
+	margin:0 5% 0 5%;
 	font-family: 'arsenalregular';
 	background-image: url(../img/tile2.png);
 	border:7px ridge #58768e;
@@ -218,7 +219,7 @@ html[xmlns] #nav {
 	width:24%;
 	height:80.7%;	
 	text-align: center;
-	float:right;
+	float:left;
 	overflow-y:auto;
 	margin-left:1.25%;
 	margin-top:1%;
@@ -231,6 +232,7 @@ html[xmlns] #nav {
 #center{
 	z-index:1;
 	width:45%;
+	float:left;
 	text-align: center;
 	overflow-y:auto;
 	height:80.7%;
@@ -276,6 +278,7 @@ html[xmlns] #nav {
 footer{
 	z-index:1;
 	width:100%;
+	float:left;
 	position:RELATIVE;
 	text-decoration:none;
 	margin: 1% auto 0 auto;
